@@ -40,7 +40,7 @@ public class searchdetail_fragment extends Fragment {
             public void onClick(View v) {
                 search_fragment sf = new search_fragment();
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.detail_layout, sf).addToBackStack(null);
+                fragmentTransaction.replace(R.id.search_fragment, sf).addToBackStack(null);
                 fragmentTransaction.commit();
             }
         });

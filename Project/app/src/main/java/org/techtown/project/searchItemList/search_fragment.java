@@ -72,7 +72,7 @@ public class search_fragment extends Fragment {
                 sdf.setArguments(bundle);
 
                 FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.list_search_layout, sdf).addToBackStack(null);
+                fragmentTransaction.replace(R.id.search_fragment, sdf).addToBackStack(null);
                 fragmentTransaction.commit();
 
             }
